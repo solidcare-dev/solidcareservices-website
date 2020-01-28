@@ -1,0 +1,175 @@
+.main-nav{
+    background-image: linear-gradient(-90deg, rgb(9, 107, 146), rgb(255, 255, 255));
+} 
+
+
+
+.post-icon, 
+.service-icon,
+.btn.btn-primary,
+.btn-submit,
+.footer-bottom,
+.footer a{
+    
+    background-color: rgb(9, 107, 146);
+    color: rgb(253, 253, 253);
+}
+
+.navbar-nav li a:hover,
+.col-sm-4:hover .service-icon {
+    background-color: rgb(120, 179, 202);
+}
+
+@media only screen and (max-width: 766px) {
+    .collapsing ul li a, .in ul li a {color: rgb(0, 0, 0)!important;}
+    .collapsing ul li a:hover, .in ul li a:hover {color: #f1f1f1!important;}
+    .collapsing navbar brand {height:20%;}
+    }
+
+
+ #footer, 
+ footer {
+        background-image: linear-gradient(rgb(231, 223, 223), rgb(9, 107, 146));
+    }
+
+
+.card-title {
+    color: #000000;
+    font-size: 25px;
+    font-weight: bolder;
+
+}
+
+.card-body {
+    color: #000000;
+    font-size: 17px;
+    padding-left: 30px;
+    padding-right: 210px;
+    text-align: justify;
+
+}
+
+/*************************
+********Service CSS*******
+**************************/
+#service {
+    background-image: url(../images/services_4.jpg);
+  
+    padding: 60px 0;
+  }
+  
+  #service p {
+    font-size: 16px;
+    font-family: 'Century Gothic', Courier, monospace;
+    line-height: normal;
+
+  }
+  #service h1 {
+    padding-right: 100px;
+    font-family: 'Century Gothic', Courier, monospace;
+  }
+  
+  #service h6 {
+    color: #000000;
+    font-size: 16px;
+    padding-right: 100px;
+    font-family: 'Century Gothic', Courier, monospace;
+  }
+
+  #service .panel-title {
+    color: #000000;
+    font-size: 20px;
+    font-weight: bolder;
+    text-align: justify;
+    font-family: 'Century Gothic', Courier, monospace;
+    
+  }
+
+  #service .panel-transparent {
+    background: none;
+    border: none;
+}
+#service .panel-transparent .panel-heading{
+  background: none!important;
+}
+
+
+#service .panel-body {
+    color: #000000;
+    font-size: 17px;
+    padding-left: 30px;
+    padding-right: 210px;
+    text-align: justify;
+    
+  }
+  
+  #service .panel-group {
+    background: transparent;
+  }
+
+  #service h2 {
+    margin-top: 0;
+    color: #fff;
+  }
+  
+  
+  #service .lead {
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+  
+  #service h1 {
+    margin-bottom: 30px;
+  }
+  
+  .progress{
+    height: 20px;
+    background-color: #fff;
+    border-radius: 0;
+    box-shadow: none;
+    -webkit-box-shadow: none;
+    margin-bottom: 25px;
+  }
+  
+  .progress-bar{
+    box-shadow: none;
+    -webkit-box-shadow: none;
+    text-align: right;
+    padding-right: 12px;
+    font-size: 12px;
+    font-weight: 600;
+  }
+  
+  
+  .progress .progress-bar.six-sec-ease-in-out {
+    -webkit-transition: width 2s ease-in-out;
+    transition:  width 2s ease-in-out;
+  }
+
+/* contact form placeholder text */
+
+
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: #000000;
+  opacity: 1; /* Firefox */
+}
+
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color:#000000;
+}
+
+::-ms-input-placeholder { /* Microsoft Edge */
+    color: #000000;
+}
+  
+
+.resp-container .resp-iframe {
+  height: 350px;
+  width: 100%;
+}
+/* position: relative;
+  overflow: hidden;
+  padding-top: 56.25%; */
+
+
+
